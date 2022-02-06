@@ -1,0 +1,214 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Unicase:600,700&display=swap");
+
+@font-face {
+	font-family: "ClarencePro";
+	src: url("fonts/ClarencePro-006.woff2") format("woff2"), url("fonts/ClarencePro-006.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Kuloneth";
+	src: url("fonts/KulonethRegular.woff2") format("woff2"), url("fonts/KulonethRegular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "NedLTStd";
+	src: url("fonts/NedLTStd.woff2") format("woff2"), url("fonts/NedLTStd.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.header {
+	background-color: #7a956b;
+	padding: 30px 70px;
+}
+
+.menu {
+	width: 500px;
+	margin: 20px auto;
+	padding: 30px 10px;
+	text-align: center;
+}
+
+ul {
+	padding: 30px 10px;
+}
+
+body {
+	font-family: "Stick", sans-serif;
+	font-family: "Comforter", cursive;
+	font-family: 'Cormorant Unicase', serif;
+	font-family: "ClarencePro";
+	font-family: "Kuloneth";
+	font-family: "NedLTStd";
+}
+
+.hrom {
+	font-family: "NedLTStd";
+	color: black;
+	text-align: center;
+	text-decoration: overline;
+	text-shadow: 0px 10px 10px #0de4eb
+}
+
+h1 {
+	font-family: "ClarencePro";
+	text-align: center;
+	font-size: 50px;
+	color: darkgoldenrod;
+	text-shadow: 0px -10px 5px #ebe70d;
+	margin: 0px 0px 30px 0px;
+}
+
+nav a {
+	color: #885526;
+}
+
+#section1 {
+	font-family: "Cormorant Unicase";
+	text-align: center;
+	font-size: 50px;
+	color: #871cbd;
+	margin: 30px 0px 30px 0px;
+}
+
+#section2 {
+	font-size: 50px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+#section3 {
+	color: #ebe70d;
+	font-size: 50px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.cur {
+	width: 700px;
+	margin: 0px 0px 0px auto;
+}
+
+i {
+	font-family: "ClarencePro";
+	text-align: justify;
+	color: #9e0c0c;
+	text-transform: capitalize;
+	text-shadow: 0px -10px 5px #eb0de0;
+}
+
+.img-1 {
+	width: 900px;
+	margin: 0px auto;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.img-2 {
+	width: 700px;
+	margin: 0px auto;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.text {
+	letter-spacing: 3px;
+	color: #483d8b;
+}
+
+.p-1 {
+	width: 800px;
+	margin: 0px auto;
+}
+
+.p-2 {
+	height: 100px;
+	font-size: 20px;
+	overflow: scroll;
+}
+
+.p-3 {
+	width: 500px;
+	margin: 10px auto;
+	text-align: center;
+}
+
+.ppp {
+	background-color: #7a956b;
+	max-width: 1000px;
+	min-height: 500px;
+	margin-top: 10px;
+	word-spacing: 10px;
+	text-transform: uppercase;
+	color: #8fbc8f;
+}
+
+span {
+	text-decoration: line-through;
+	text-transform: uppercase;
+	color: fuchsia;
+}
+
+.two {
+	color: #ff1e8f;
+	text-align: center;
+}
+
+h2 {
+	font-size: 50px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+	color: #db4444;
+}
+
+ol p {
+	color: forestgreen;
+	text-align: center;
+}
+
+ol {
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+li {
+	margin-bottom: 20px;
+}
+
+a {
+	font-family: "Stick", sans-serif;
+	color: rgb(29, 15, 228);
+}
+
+.link2 {
+	text-align: center;
+	font-size: 30px;
+}
+
+.end {
+	font-family: "ClarencePro";
+	color: #4480db;
+	margin-bottom: 10px;
+}
+
+.footer {
+	width: 500px;
+	margin: 10px auto;
+}
